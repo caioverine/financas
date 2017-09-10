@@ -13,6 +13,16 @@ public class Categoria {
 	private Integer id;
 	
 	private String nome;
+	
+	public Categoria() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Categoria(String nome){
+		
+		super();
+		this.nome = nome;
+	}
 
 	public Integer getId() {
 		return id;
